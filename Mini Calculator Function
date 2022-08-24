@@ -1,0 +1,11 @@
+def calc(num1,num2,Operation):
+    if Operation=="+":
+        print(num1+num2)
+    elif Operation=="-":
+        print(num1-num2)
+    elif Operation=="*":
+        print(num1*num2)
+    elif Operation=="/":
+        print(num1+num2)
+    else:
+        print("invalid Operation")
